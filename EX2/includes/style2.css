@@ -1,0 +1,156 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.clear {
+ clear: both;
+}
+
+header, footer, aside, section, main, article {
+	display: block;
+}
+
+#wrapper{
+	margin: 0px auto;
+	width: 1000px;
+}
+
+.markSelected{
+	background: #003748;	
+}
+
+body{
+	position: relative;
+	height: 807px;
+	width: 1000px;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+	display: block;
+	font-family: "Arial";
+}
+
+header{
+	background: #d6d6d6;
+	height: 192px;
+	width: 1000px;
+}
+
+header a{
+	background: url("../images/logo.png") no-repeat;
+	height: 104px;
+	width: 106px;
+	display: inline-block;
+	margin-left: 448px;
+	margin-top: 43px;
+}
+
+nav{
+	position: relative;
+	background: #337ab7;
+	height: 757px;
+	width: 146px;
+	float: left;
+}
+
+ul{
+	list-style-type: none;
+	display: inline-block;
+}
+
+li{
+ 	float: left;
+}
+
+li > a{
+	padding: 20px 6px;
+	padding-right: 78.6px;
+	position: relative;
+    z-index: 10;
+}
+
+li > a:hover{
+	background: #003748;
+}
+
+main{
+	position: relative;
+	height: 757px;
+	width: 1000px;
+
+}
+footer{
+	position: fixed;
+	background: #d6d6d6;
+	height: 50px;
+	width: 1000px;
+	bottom: 0px;
+}
+
+aside{
+	position: relative;
+	height: 757px;
+	width: 220px;
+	background: #eeeeee;
+	float: left;
+}
+
+#layoutContent{
+	position: relative;
+	width: 634px;
+	height: 757px;
+	float: left;
+}
+
+.firstObject{
+	position: absolute;
+	background: #62c462;
+	height: 68px;
+	width: 79px;
+	top: 261px;
+	left: 11px;
+}
+
+.secondObject{
+	position: absolute;
+	background: #62c462;
+	height: 510px;
+	width: 189px;
+	top: 23px;
+	left: 5px;	
+}
+
+.thirdObject{
+	position: absolute;
+	background: #62c462;
+	height: 324px;
+	width: 189px;
+	top: 23px;
+	left: 223px;
+}
+
+.fourthObject{
+	position: absolute;
+	background: #62c462;
+	height: 387px;
+	width: 189px;
+	top: 370px;
+	left: 223px;
+}
+
+.fifthObject{
+	position: absolute;
+	background: #62c462;
+	height: 124px;
+	width: 189px;
+	top: 23px;	
+	right: 4px;
+}
+
+/*
+flex: auto 0;
+display: flex;
+ */
