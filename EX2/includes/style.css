@@ -25,7 +25,7 @@ article {
 }
 #wrapper3 {
     margin: 0px auto;
-    width: 1000px;
+    max-width: 1000px;
 }
 a {
     text-decoration: none;
@@ -35,16 +35,18 @@ a {
 }
 header {
     background: #d6d6d6;
-    height: 192px;
-    width: 1000px;
+    height: 193px;
+    width: 100%;
+    position: relative;
 }
 header a {
-    background: url("../images/logo.png") no-repeat;
+    background: url("../images/logo.png") center no-repeat;
     height: 104px;
     width: 106px;
-    display: inline-block;
-    margin-left: 448px;
-    margin-top: 43px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 #nav1 {
     background: #337ab7;
@@ -86,21 +88,22 @@ header a {
 #nav3 {
     background: #337ab7;
     height: 62px;
-    width: 1000px;
+    text-align: center;
+    max-width: 1000px;
+    
 }
 #nav3 ul {
     list-style-type: none;
     display: inline-block;
-    margin-left: 150px;
 }
 #nav3 ul li {
+    line-height: 62px;
     float: left;
+    display: inline-block;
 }
 #nav3 li>a {
-    width: 233px;
-    height: 39px;
-    padding-top: 23px;
-    text-align: center;
+    padding: 0px 83px;
+    white-space: nowrap;
 }
 nav li>a:hover {
     background: #003748;
@@ -172,7 +175,7 @@ aside article {
     float: left;
 }
 #wrapper3 main {
-    width: 1000px;
+    width: 100%;
 }
 #layout2Content {
     position: relative;
@@ -223,7 +226,7 @@ aside article {
 footer {
     background: #d6d6d6;
     height: 50px;
-    width: 1000px;
+    width: 100%;
 }
 #fixing {
     position: fixed;
@@ -236,7 +239,7 @@ footer {
     background: #003748;
 }
 .rectangle {
-    width: 333.33px;
+    width: 33.3%;
     height: 348px;
     float: left;
 }
@@ -247,32 +250,10 @@ footer {
     background: url("../images/white_plus.png") no-repeat center center;
 }
 @media only screen and (max-width: 768px) {
-    #wrapper3 header {
-        width: 667px;
+    #nav3 li>a {
+        padding: 0px 5% 0px 1px;
     }
-    #wrapper3 #nav3 {
-        width: 667px;
-    }
-    #wrapper3 main {
-        width: 667px;
-    }
-    #wrapper3 footer {
-        width: 667px;
-    }
-    #wrapper3 header a {
-        margin-left: 283px;
-    }
-    #wrapper3 #nav3 ul {
-        margin-left: 0px;
-    }
-    #wrapper3 #nav3 ul li {
-        width: 222px;
-        margin-left: 0px;
-    }
-    #wrapper3 #nav3 a {
-        width: 222px;
-    }
-    #wrapper3 #nav3 li>a {
-        width: 222px;
+    .rectangle {
+        width: 50%;
     }
 }
