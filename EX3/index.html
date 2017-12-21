@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>EX3~RONI_POLISANOV</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <link href="includes/style.css" rel="stylesheet">
+    <script src="includes/js/jquery-3.2.1.min.js"></script>
+    <script src="includes/js/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav>
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%">
+                <!-- Background -->
+                <rect x="0" y="0" fill="#222" width="100%" height="100%" />
+                <!-- Text using the #pattern in defs as the fill -->
+                <text x="50%" text-anchor="middle" y="40%" dy="0.4em" fill="url(#pattern)" font-family="sonos-logoregular" font-size="20vh">WELCOME TO HELL</text>
+                <defs>
+                    <!-- Da gradient -->
+                    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0">
+                        <stop offset="0%" style="stop-color:#33235b;" />
+                        <stop offset="25%" style="stop-color:#D62229;" />
+                        <stop offset="50%" style="stop-color:#E97639;" />
+                        <stop offset="75%" style="stop-color:#792042;" />
+                        <stop offset="100%" style="stop-color:#33235b;" />
+                    </linearGradient>
+                    <!-- Stitch 2 gradients together for seamless animation  -->
+                    <pattern id="pattern" x="0" y="0" width="300%" height="100%" patternUnits="userSpaceOnUse">
+                        <rect x="0" y="0" width="150%" height="100%" fill="url(#gradient)">
+                            <animate attributeType="XML" attributeName="x" from="0" to="150%" dur="7s" repeatCount="indefinite" />
+                        </rect>
+                        <rect x="-150%" y="0" width="150%" height="100%" fill="url(#gradient)">
+                            <animate attributeType="XML" attributeName="x" from="-150%" to="0" dur="7s" repeatCount="indefinite" />
+                        </rect>
+                    </pattern>
+                    <!-- Pull in font -->
+                    <!-- Copied from: https://static.sonos.com/v1/fonts/logo/sonos-logo-regular-webfont.svg -->
+                    <font horiz-adv-x="1024">
+                     <font-face font-family="sonos-logoregular" units-per-em="2048" ascent="1920" descent="-128" />
+                     <missing-glyph horiz-adv-x="500" />
+                     <glyph unicode="&#xd;" horiz-adv-x="682" />
+                     <glyph unicode=" " />
+                     <glyph unicode="N" horiz-adv-x="812" d="M0 412h150v636l662 -664v1000h-148v-640l-664 664v-996z" />
+                     <glyph unicode="O" horiz-adv-x="1946" d="M470 896q0 210 150 364q148 148 362 148t362 -148q150 -154 150 -364q0 -212 -150 -362t-362 -150t-362 150t-150 362zM620 896q0 -152 106 -258q104 -108 256 -108q154 0 256 108q108 108 108 258q0 148 -108 260q-104 108 -256 108q-148 0 -256 -108 q-106 -110 -106 -260z" />
+                     <glyph unicode="S" horiz-adv-x="674" d="M0 1124q0 -58 26 -110q28 -52 80 -90q32 -26 86 -52q68 -30 124 -46q124 -40 174 -84q34 -30 34 -74q0 -52 -48 -92q-56 -42 -138 -42q-62 0 -122 26q-38 16 -72 40l-118 -80q0 -4 24 -24q24 -24 60 -46q108 -66 228 -66q70 0 132 22q66 24 108 62q44 38 72 92 q24 54 24 110q0 54 -26 110q-28 52 -78 90q-34 28 -88 52q-38 18 -122 46q-122 36 -174 82q-36 32 -36 74q0 54 50 92q54 44 138 44q60 0 120 -26q32 -12 72 -40l120 80q-2 0 -24 24q-18 18 -62 46q-104 64 -226 64q-74 0 -132 -20t-110 -62q-48 -44 -70 -92 q-26 -56 -26 -110z" />
+                     <glyph unicode="&#xa0;" />
+                     <glyph unicode="&#x2000;" horiz-adv-x="704" />
+                     <glyph unicode="&#x2001;" horiz-adv-x="1408" />
+                     <glyph unicode="&#x2002;" horiz-adv-x="704" />
+                     <glyph unicode="&#x2003;" horiz-adv-x="1408" />
+                     <glyph unicode="&#x2004;" horiz-adv-x="469" />
+                     <glyph unicode="&#x2005;" horiz-adv-x="352" />
+                     <glyph unicode="&#x2006;" horiz-adv-x="234" />
+                     <glyph unicode="&#x2007;" horiz-adv-x="234" />
+                     <glyph unicode="&#x2008;" horiz-adv-x="176" />
+                     <glyph unicode="&#x2009;" horiz-adv-x="281" />
+                     <glyph unicode="&#x200a;" horiz-adv-x="78" />
+                     <glyph unicode="&#x202f;" horiz-adv-x="281" />
+                     <glyph unicode="&#x205f;" horiz-adv-x="352" />
+                     <glyph unicode="&#x25fc;" horiz-adv-x="1000" d="M0 0z" />
+                  </font>
+                </defs>
+            </svg>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="mo-fire">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="189.864px" viewBox="0 0 125 189.864" enable-background="new 0 0 125 189.864" xml:space="preserve">
+                        <path class="flame-main" fill="#F36E21" d="M76.553,186.09c0,0-10.178-2.976-15.325-8.226s-9.278-16.82-9.278-16.82s-0.241-6.647-4.136-18.465
+	c0,0,3.357,4.969,5.103,9.938c0,0-5.305-21.086,1.712-30.418c7.017-9.333,0.571-35.654-2.25-37.534c0,0,13.07,5.64,19.875,47.54
+	c6.806,41.899,16.831,45.301,6.088,53.985" />
+                        <path class="flame-main one" fill="#F6891F" d="M61.693,122.257c4.117-15.4,12.097-14.487-11.589-60.872c0,0,32.016,10.223,52.601,63.123
+	c20.585,52.899-19.848,61.045-19.643,61.582c0.206,0.537-19.401-0.269-14.835-18.532S57.576,137.656,61.693,122.257z" />
+                        <path class="flame-main two" fill="#FFD04A" d="M81.657,79.192c0,0,11.549,24.845,3.626,40.02c-7.924,15.175-21.126,41.899-0.425,64.998
+	C84.858,184.21,125.705,150.905,81.657,79.192z" />
+                        <path class="flame-main three" fill="#FDBA16" d="M99.92,101.754c0,0-23.208,47.027-12.043,80.072c0,0,32.741-16.073,20.108-45.79
+	C95.354,106.319,99.92,114.108,99.92,101.754z" />
+                        <path class="flame-main four" fill="#F36E21" d="M103.143,105.917c0,0,8.927,30.753-1.043,46.868c-9.969,16.115-14.799,29.041-14.799,29.041
+	S134.387,164.603,103.143,105.917z" />
+                        <path class="flame-main five" fill="#FDBA16" d="M62.049,104.171c0,0-15.645,67.588,10.529,77.655C98.753,191.894,69.033,130.761,62.049,104.171z" />
+                        <path class="flame" fill="#F36E21" d="M101.011,112.926c0,0,8.973,10.519,4.556,16.543C99.37,129.735,106.752,117.406,101.011,112.926z" />
+                        <path class="flame one" fill="#F36E21" d="M55.592,126.854c0,0-3.819,13.29,2.699,16.945C64.038,141.48,55.907,132.263,55.592,126.854z" />
+                        <path class="flame two" fill="#F36E21" d="M54.918,104.595c0,0-3.959,6.109-1.24,8.949C56.93,113.256,52.228,107.329,54.918,104.595z" />
+                    </svg>
+                </div>
+            </div>
+            <div class="col order-12">
+                <div class="mo-fire">
+                </div>
+            </div>
+            <div class="col order-1">
+                <main class="ball">
+                    <h5 class="text-secondary"> Please fill out the following fields: </h5>
+                    <form action="http://html5-book.co.il/teach/forms/get_form2.php" method="get" autocomplete="on">
+                        <label>
+                            Full Name
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="First name : Last name" name="fullName" pattern="[A-Z,a-z]{50}" title="30 letters Full Name A-Z and a-z ONLY" required>
+                        </label>
+                        </div>
+                        <label>
+                            <div class="form-group">
+                                Password
+                                <input type="password" class="form-control" placeholder="Password" name="pass" maxlength="12" required>
+                        </label>
+                        </div>
+                        <label>
+                            <div class="form-group">
+                                Email Address
+                                <input type="email" name="mail" class="form-control" aria-describedby="emailHelp" placeholder="Enter Email">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </label>
+                        </div>
+                        <label>
+                            <div class="form-group">
+                                Website URL
+                                <input type="url" class="form-control" placeholder="http:// OR https:// ONLY" name="website" pattern="https?://.+" title="Include http://">
+                        </label>
+                        </div>
+                        <label>
+                            <div class="form-group">
+                                Address
+                                <textarea class="form-control" rows="1" cols="31" placeholder="Your Address" name="address"></textarea>
+                            </div>
+                            <label>
+                                <label>
+                                    <div class="form-group">
+                                        Phone Number
+                                        <input type="tel" class="form-control" placeholder="+972xxxxxxxxx" name="phone">
+                                </label>
+                                </div>
+                                <p>
+                                    <div class="form-group">
+                                        <label>
+                                            Number of people you killed </label>
+                                        <input type="number" class="form-control" name="coffee" value="0" min="1" max="999999999" step="1">
+                                </p>
+                                </div>
+                                <label>
+                                    <div class="form-group">
+                                        Your attraction to blood
+                                        <input type="range" class="form-control" name="temper" min="50" max="100" name="temper">
+                                        <small class="form-text text-muted">* From 0 to 100 from left to right.</small>
+                                </label>
+                                </div>
+                                <div class="form-group">
+                                    Hobbies
+                                    <div class="input-group">
+                                        <span class="input-group-addon">
+                           <input type="checkbox" name="interests[]" value="KILL">
+                           </span>
+                                        <span class="input-group-addon">KILL</span>
+                                    </div>
+                                    <div class="input-group">
+                                        <span class="input-group-addon">
+                           <input type="checkbox" name="interests[]" value="DESTROY">
+                           </span>
+                                        <span class="input-group-addon">DESTROY</span>
+                                    </div>
+                                    <div class="input-group">
+                                        <span class="input-group-addon">
+                           <input type="checkbox" name="interests[]" value="HIT">
+                           </span>
+                                        <span class="input-group-addon">HIT</span>
+                                    </div>
+                                    <div class="input-group">
+                                        <span class="input-group-addon">
+                           <input type="checkbox" name="interests[]" value="BEAT">
+                           </span>
+                                        <span class="input-group-addon">BEAT</span>
+                                    </div>
+                                    <div class="input-group">
+                                        <span class="input-group-addon">
+                           <input type="checkbox" name="interests[]" value="STRIKE">
+                           </span>
+                                        <span class="input-group-addon">STRIKE</span>
+                                    </div>
+                                    <div class="input-group">
+                                        <span class="input-group-addon">
+                           <input type="checkbox" name="interests[]" value="KNOCK OFF">
+                           </span>
+                                        <span class="input-group-addon">KNOCK OFF</span>
+                                    </div>
+                                    <br>
+                                    <label>
+                                        Gender
+                                        <div class="input-group">
+                                            <span class="input-group-addon">
+                              <input type="radio" name="gender" value="male" aria-label="Radio button for following text input" checked> Male
+                              </span>
+                                        </div>
+                                        <div class="input-group">
+                                            <span class="input-group-addon">
+                              <input type="radio" name="gender" value="female" aria-label="Radio button for following text input" checked> Female
+                              </span>
+                                        </div>
+                                        <br>
+                                        <label>
+                                            Age
+                                            <br>
+                                            <select name="age" class="custom-select">
+                                                <option selected>Open this select age</option>
+                                                <option value="1">18-21</option>
+                                                <option value="2">22-30</option>
+                                                <option value="3">31-45</option>
+                                                <option value="4">46-50</option>
+                                                <option value="3">51-57</option>
+                                                <option value="4">58-65</option>
+                                                <option value="3">65+</option>
+                                            </select>
+                                        </label>
+                                        <br>
+                                        <input type="submit" value="submit" class="btn btn-primary">
+                    </form>
+                    </div>
+            </div>
+            </main>
+        </div>
+    </div>
+    </div>
+    <footer></footer>
+</body>
+</html>
