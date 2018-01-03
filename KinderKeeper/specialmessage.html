@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>KinderKeeper - הודעה מותאמת אישית</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="includes/style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <script src="includes/js/jquery-3.2.1.min.js"></script>
+    <script src="includes/js/main.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="shortcut icon" href="images/minilogo.ico" />
+</head>
+
+<body id="wrapperGlobal">
+    <header>
+    </header>
+    <main>
+        <section>
+            <img src="images/kid5.png" alt="אסף לוץ"> </img>
+            <h5>אסף לוץ</h5>
+        </section>
+        <ul id="submenu">
+        </ul>
+        <section id="chooseEvent">
+            <h5 class="underline">הודעה מותאמת אישית </h5>
+            <form action="eventlist.html" method="get" autocomplete="on">
+                <h5>:פרטי האירוע</h5><textarea rows="10" cols="31" placeholder="0/500" name="personalMessage" dir="rtl" required></textarea>
+                <h5>:תאריך</h5><input type="date" name="date" required><br>
+                <h5>:שעה</h5><input type="time" name="time" required><br>
+                <input class="ui-button ui-widget ui-corner-all" type="submit" value="שלח\י">
+                <br><br><br>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <a href="#" id="deleteFooter"></a>
+            </li>
+            <li>
+                <a href="#" id="searchFooter"></a>
+            </li>
+            <li>
+                <a href="#" id="addFooter"></a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
